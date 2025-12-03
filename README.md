@@ -45,12 +45,12 @@ Allows uploading your own templates
 Save as Word Document (.docx)
 
 
-🛠️ Installation (Developer Mode)
-1️⃣ Clone the Repository
-git clone https://github.com/YOUR_USERNAME/quotation-automation.git
+## 🛠️ Installation (Developer Mode)
+## 1️⃣ Clone the Repository
+git remote add origin https://github.com/Sushmithajn/quotation-automation.git
 cd quotation-automation
 
-2️⃣ Create Virtual Environment
+## 2️⃣ Create Virtual Environment
 python -m venv venv
 
 
@@ -60,27 +60,13 @@ Windows:
 
 venv\Scripts\activate
 
-3️⃣ Install Dependencies
+## 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Run the Application
+## 4️⃣ Run the Application
 python main.py
 
-📦 Build Executable (.exe)
-
-To create a standalone desktop application:
-
-pyinstaller --noconsole --onefile --add-data "templates;templates" --add-data "data;data" main.py
-
-
-The .exe file will be inside:
-
-/dist/main.exe
-
-
-Share this executable with users.
-
-🧮 How Calculations Work
+## 🧮 How Calculations Work
 
 For each item:
 
