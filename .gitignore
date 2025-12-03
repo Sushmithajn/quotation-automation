@@ -1,0 +1,8 @@
+venvqa/
+__pycache__/
+build/
+dist/
+output/
+*.exe
+*.pdf
+*.docx
