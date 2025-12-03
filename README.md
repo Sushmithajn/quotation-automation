@@ -3,13 +3,13 @@ A desktop application built with Python, PySide6, and DocxTemplate for automatic
 The tool allows users to input customer details, add multiple items, auto-calculate totals, apply taxes, and instantly generate a formatted quotation using customizable Word templates.
 
 ## 🚀 Features
-## ✔️ User-Friendly Desktop Application
+## User-Friendly Desktop Application
 
 Built using PySide6 (Qt for Python)
 
 Clean UI with form inputs and dynamic table rows
 
-## ✔️ Automatic Calculations
+## Automatic Calculations
 
 The app calculates:
 
@@ -25,13 +25,13 @@ Rounding Difference
 
 Total amount in words
 
-## ✔️ Supports Multiple UOM (Unit of Measurement)
+## Supports Multiple UOM (Unit of Measurement)
 
 Nos, Kg, Ltr, Meter, Box, Packet, Dozen
 
 Custom UOM option
 
-## ✔️ Template-Based Quotation Generation
+## Template-Based Quotation Generation
 
 Uses DOCX template (.docx)
 
@@ -40,14 +40,15 @@ Generates a filled quotation using placeholders
 Allows uploading your own templates
 
 
-## ✔️ Export Options
+## Export Options
 
 Save as Word Document (.docx)
 
 
-## 🛠️ Installation (Developer Mode)
+## Installation (Developer Mode)
 ## 1️⃣ Clone the Repository
 git remote add origin https://github.com/Sushmithajn/quotation-automation.git
+
 cd quotation-automation
 
 ## 2️⃣ Create Virtual Environment
@@ -71,13 +72,18 @@ python main.py
 For each item:
 
 Product Total = Qty × Rate
+
 Tax Amount = Product Total × (Tax% / 100)
+
 Line Total = Product Total + Tax Amount
 
 
 Overall:
 
 Subtotal = Sum of all product totals
+
 Total Tax = Sum of all tax amounts
+
 Grand Total = Subtotal + Total Tax
+
 Rounding = round(Grand Total) - Grand Total
